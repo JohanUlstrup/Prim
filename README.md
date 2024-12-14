@@ -11,7 +11,7 @@ This repository contains scripts and test data for comparing and running multipl
    - [Running Prim-MSA](#running-prim-msa)
    - [Running SP-Exact](#running-sp-exact)
    - [Running SP-Approx](#running-sp-approx)
-4.[Testing of algorithms](#testing_algorithms)
+4. [Testing of algorithms](#testing_algorithms)
 
 
 ---
