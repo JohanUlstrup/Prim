@@ -55,8 +55,32 @@ Command:
 ```bash
 python SP_approxv5.py <data.fasta> <score_matrix.txt>
 ```
+## Data Simulation
+
+The data used for testing and mutation was simulated using the script `simulate_data_v2.py`. To run the script and generate mutated data, follow the instructions below.
+
+### Usage of `simulate_data_v2.py`
+1. **Open the Script**:
+   - Open `simulate_data_v2.py` in your preferred text editor or IDE.
+
+2. **Modify File Path**:
+   - Change the `path` variable to the location of the input FASTA file you want to mutate. The script reads the sequence data from this file.
+   
+   ```python
+   path = r"Your\\path\\to\\file"
+   filename = "gene.fna"
+
+Command:
+```bash
+simulate_data_v2.py
+```
+
+### `mutated_fox/`
+This folder contains the test data used for all the experiments and algorithm evaluations. The test data is essential for running the different MSA algorithms and includes various datasets for testing alignment quality, performance, and scalability.
 
 
+### `testing_of_algorithms/`
+This folder contains the scripts used to evaluate and test the performance of the MSA algorithms. The testing scripts help automate the process of comparing different algorithms, ensuring consistency across tests, and analyzing results.
 
 
 
