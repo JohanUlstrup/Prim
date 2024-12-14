@@ -11,7 +11,8 @@ This repository contains scripts and test data for comparing and running multipl
    - [Running Prim-MSA](#running-prim-msa)
    - [Running SP-Exact](#running-sp-exact)
    - [Running SP-Approx](#running-sp-approx)
-4. [Repository Structure](#repository-structure)
+4.[Testing of algorithms]
+
 
 ---
 
@@ -54,20 +55,6 @@ Command:
 ```bash
 python SP_approxv5.py <data.fasta> <score_matrix.txt>
 ```
-
-## Repository Structure
-
-├── mutated_fox/               # Test datasets used for all experiments
-│   ├── [test files...]
-├── test_data_short/           # Smaller test datasets
-│   ├── [test files...]
-├── testing_of_algorithms/     # Scripts for testing and performance evaluation
-│   ├── [testing scripts...]
-├── SP_approxv5.py             # Script for SP-Approx algorithm
-├── prim.py                    # Prim’s algorithm implementation (used by Prim-MSA)
-├── prim_msa.py                # Prim-MSA implementation
-├── score_matrix.py            # Utility for score matrix operations
-├── sp_exact_3.py              # SP-Exact algorithm script
 
 
 
