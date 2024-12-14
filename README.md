@@ -28,7 +28,7 @@ Additionally, the repository includes test datasets and scripts for evaluating t
 
 ## Setup Instructions
 
-1. Ensure you have Python 3.x installed.
+1. Ensure you have Python 3.10.14 installed.
 2. Clone this repository to your local machine:
 
 
