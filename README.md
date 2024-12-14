@@ -31,5 +31,9 @@ Additionally, the repository includes test datasets and scripts for evaluating t
 1. Ensure you have Python 3.x installed.
 2. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/your-repo-name.git
-   cd your-repo-name
+
+## Usage
+Running Prim-MSA
+The prim_msa.py script runs the Prim-MSA algorithm. Ensure the prim.py script is in the same directory.
+Comand:
+python prim_msa.py <data.fasta> <score_matrix.txt>
