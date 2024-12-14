@@ -30,10 +30,46 @@ Additionally, the repository includes test datasets and scripts for evaluating t
 
 1. Ensure you have Python 3.x installed.
 2. Clone this repository to your local machine:
-   ```bash
+
 
 ## Usage
-Running Prim-MSA
-The prim_msa.py script runs the Prim-MSA algorithm. Ensure the prim.py script is in the same directory.
-Comand:
+### Running Prim-MSA
+The `prim_msa.py` script runs the Prim-MSA algorithm. Ensure the `prim.py` script is in the same directory.
+
+**Command**:
+```bash
 python prim_msa.py <data.fasta> <score_matrix.txt>
+
+###Running SP-Exact
+The sp_exact_3.py script runs the SP-Exact algorithm.
+
+Command:
+```bash
+python sp_exact_3.py <data.txt> -g <gap_penalty> -m <score_matrix.txt>
+
+Running SP-Approx
+The SP_approxv5.py script runs the SP-Approx algorithm. Use the following command:
+
+Command:
+```bash
+python SP_approxv5.py <data.fasta> <score_matrix.txt>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
