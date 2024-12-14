@@ -39,21 +39,21 @@ The `prim_msa.py` script runs the Prim-MSA algorithm. Ensure the `prim.py` scrip
 **Command**:
 ```bash
 python prim_msa.py <data.fasta> <score_matrix.txt>
-
+```
 ###Running SP-Exact
-The sp_exact_3.py script runs the SP-Exact algorithm.
+The `sp_exact_3.py` script runs the SP-Exact algorithm.
 
 Command:
 ```bash
 python sp_exact_3.py <data.txt> -g <gap_penalty> -m <score_matrix.txt>
-
+```
 Running SP-Approx
-The SP_approxv5.py script runs the SP-Approx algorithm. Use the following command:
+The `SP_approxv5.py` script runs the SP-Approx algorithm. Use the following command:
 
 Command:
 ```bash
 python SP_approxv5.py <data.fasta> <score_matrix.txt>
-
+```
 
 
 
